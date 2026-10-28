@@ -67,12 +67,9 @@ export default function App() {
                     <Route path="/checkout" element={<Checkout />} />
                     <Route path="/favorites" element={<Favorites />} />
                     <Route path="/profile" element={<Profile />} />
-<<<<<<< HEAD
+
                     <Route path="/settings" element={<Settings />} />
-=======
->>>>>>> upstream/main
-                    <Route path="/orders" element={<MyOrders />} />
-                    <Route path="/orders/:id" element={<OrderDetails />} />
+
 
                     {/* ADMIN only — STAFF is sent to /forbidden */}
                     <Route element={<RoleRoute allow={["ADMIN"]} />}>
